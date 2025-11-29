@@ -52,7 +52,8 @@ Animstep = 0
 WalkAnimMove=0.05
 Combo = 0
 local attack=false
-
+local pant = true
+local shirt = true
 local RJ = Character.HumanoidRootPart:FindFirstChild("RootJoint")
 local Neck = Character.Torso:FindFirstChild("Neck")
 
