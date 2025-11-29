@@ -23,7 +23,8 @@ FELOADLIBRARY = {}
 loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
 local RbxUtility = FELOADLIBRARY
 local Create = RbxUtility.Create
-
+local pant = true
+local shirt = true
 EffectPack = folder.noextrasnono:Clone()
 folder.noextrasnono:Destroy()
 local agresive = false
@@ -51,8 +52,7 @@ Animstep = 0
 WalkAnimMove=0.05
 Combo = 0
 local attack=false
-local pant = false
-local shirt = false
+
 local RJ = Character.HumanoidRootPart:FindFirstChild("RootJoint")
 local Neck = Character.Torso:FindFirstChild("Neck")
 
